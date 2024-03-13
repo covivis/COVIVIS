@@ -10,6 +10,8 @@
 
 ## Functions
 ### find_me_from_sd(m,sd)
+- Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
+
 ### generate_onset(reporteddata,xmu,xsd)
 ### param_estim_by_lm(xdata,ydata)
 ### epi.prediction_by_lm(xdata,pa,pb,pr)
