@@ -33,5 +33,6 @@ Research Center for Integrative Evolutionary Sciense, SOKENDAI<br>
 ohtsuki_akiko@soken.ac.jp
 
 ## License
-This R source codes are released under the GPL v3 License, see LICENSE.<br>
+The source code is licensed GPL v3 License, see LICENSE.
+COVIVIS is released under the GPL v3 License, see LICENSE.
 https://www.gnu.org/licenses/gpl-3.0
