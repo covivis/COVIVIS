@@ -6,7 +6,7 @@
 
 
 ## Overview
-COVIVIS is an online tool that predicts the number of infectious from time-series data of the virus concentrations in waste water. It is developed and provided by Pf. Akira Sasaki at RCIES, SOKENDAI. This script provides functions for estimating and predicting the number of disease cases, and it is integrated into COVIVIS. The simulation results may not perfectly match the output from COVIVIS due to the use of random numbers and updates in parameters, but they are qualitatively identical. In addition, codes for data format are not included.
+[COVIVIS](https://covivis.soken.ac.jp/) is an online tool that predicts the number of infectious from time-series data of the virus concentrations in waste water. It is developed and provided by Pf. Akira Sasaki at RCIES, SOKENDAI. This script provides functions for estimating and predicting the number of disease cases, and it is integrated into COVIVIS. The simulation results may not perfectly match the output from COVIVIS due to the use of random numbers and updates in parameters, but they are qualitatively identical. In addition, codes for data format are not included.
 
 ## Functions
 ### find_me_from_sd(m,sd)
