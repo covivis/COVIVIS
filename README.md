@@ -13,6 +13,8 @@
 - Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
 
 ### generate_onset(reporteddata,xmu,xsd)
+- Estimate the number of disease onset from the number of reported cases with Monte Carlo method. The distribution of time delay from disease onset to reporting follows a Weibull distribution with mean $m$ and standard deviation $SD$.
+- 
 ### param_estim_by_lm(xdata,ydata)
 ### epi.prediction_by_lm(xdata,pa,pb,pr)
 ### vi.param_estim_by_em_rev(sewagedata,onsetdata)
