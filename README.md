@@ -10,10 +10,10 @@
 
 ## Functions
 ### find_me_from_sd(m,sd)
-* Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
+Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
 
 ### generate_onset(reporteddata,xmu,xsd)
-- Estimate the number of disease onset from the number of reported cases with Monte Carlo method. The distribution of time delay from disease onset to reporting follows a Weibull distribution with mean $m$ and standard deviation $SD$.
+Estimate the number of disease onset from the number of reported cases with Monte Carlo method. The distribution of time delay from disease onset to reporting follows a Weibull distribution with mean $m$ and standard deviation $SD$.
 
 ### param_estim_by_lm(xdata,ydata)
 - Parameters estimation with a linear regression model. 
