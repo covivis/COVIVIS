@@ -2,7 +2,7 @@
 
 [![GPL-3.0](https://custom-icon-badges.herokuapp.com/badge/license-GPL%203.0-8BB80A.svg?logo=law&logoColor=white)]()
 [![R](https://custom-icon-badges.herokuapp.com/badge/R-198CE7.svg?logo=R&logoColor=white)]()
-![Static Badge](https://img.shields.io/badge/COVIVIS-v1.0-CCCCCC?link=https%3A%2F%2Fcovivis.soken.ac.jp%2F)
+[![Static Badge](https://img.shields.io/badge/COVIVIS-v1.0-CCCCCC?link=https%3A%2F%2Fcovivis.soken.ac.jp%2F)](https://covivis.soken.ac.jp/)
 
 
 ## Overview
