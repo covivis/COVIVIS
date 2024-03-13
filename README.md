@@ -17,7 +17,7 @@ COVIVIS is an online tool that predicts the number of infectious from time-serie
 ### iv.prediction_by_em(onsetdata,v,omega,gamma,pr)
 
 ## Requirement 
-"COVIVISFunction.ver.1.0.R" and "COVIVISSimulations---.Rmd" require the following libraries to run:
+"COVIVIS-Functions.R" and "COVIVIS-Simulations.Rmd" require the following libraries to run:
 - dplyr 
 - magrittr
 - nleqslv
