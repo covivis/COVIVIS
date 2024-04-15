@@ -46,8 +46,7 @@ The function accepts time series data as the explanatory variable in the first a
 
 ## Author
 Akiko Ohtsuki <br>
-Research Center for Integrative Evolutionary Sciense, SOKENDAI<br>
-ohtsuki_akiko@soken.ac.jp
+ohtsuki.t2.work@gmail.com
 
 ## License
 The source code is licensed GPL v3 License, see LICENSE.<br>
