@@ -1,6 +1,6 @@
 # COVIVIS functions on R
 
-[![GPL-3.0](https://custom-icon-badges.herokuapp.com/badge/license-GPL%203.0-8BB80A.svg?logo=law&logoColor=white)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://custom-icon-badges.herokuapp.com/badge/R-198CE7.svg?logo=R&logoColor=white)]()
 [![Static Badge](https://img.shields.io/badge/COVIVIS-v1.0.0-CCCCCC?link=https%3A%2F%2Fcovivis.soken.ac.jp%2F)](https://covivis.soken.ac.jp/)
 
@@ -49,6 +49,6 @@ Akiko Ohtsuki <br>
 ohtsuki.t2.work@gmail.com
 
 ## License
-The source code is licensed GPL v3 License, see LICENSE.<br>
-COVIVIS is released under the GPL v3 License, see LICENSE.<br>
-https://www.gnu.org/licenses/gpl-3.0
+The source code is licensed MIT License, see LICENSE for details.<br>
+COVIVIS is released under the MIT License, see LICENSE for details.<br>
+https://www.gnu.org/licenses/gpl-3.0](https://opensource.org/licenses/mit-license.php
