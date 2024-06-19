@@ -37,7 +37,7 @@ The function accepts time series data as the explanatory variable in the first a
 - Prediction of the viral consentration using estimated parameters by Shedding profile model.
 
 ## Requirement 
-"COVIVIS-Functions.R" and "COVIVIS-Simulations.Rmd" require the following libraries to run:
+"COVIVIS-Functions.R" requires the following libraries to run:
 - dplyr 
 - magrittr
 - nleqslv
