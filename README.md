@@ -51,4 +51,4 @@ ohtsuki.t2.work@gmail.com
 ## License
 The source code is licensed MIT License, see LICENSE for details.<br>
 COVIVIS is released under the MIT License, see LICENSE for details.<br>
-https://www.gnu.org/licenses/gpl-3.0](https://opensource.org/licenses/mit-license.php
+https://opensource.org/licenses/mit-license.php
