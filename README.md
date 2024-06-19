@@ -6,7 +6,7 @@
 
 
 ## Overview
-[COVIVIS](https://covivis.soken.ac.jp/) is an online tool that predicts the number of infected people from time-series data of the virus concentrations in waste water. It was developed and provided by Prof. Akira Sasaki at RCIES, SOKENDAI. This R script provides functions for estimating and predicting the number of disease cases, and COVIVIS uses some of the functions. The simulation results may not perfectly match the output from COVIVIS due to the use of random numbers and the specification of internal functions, but they are qualitatively identical. In addition, the script does not include the codes for data formatting or processing.
+[COVIVIS](https://covivis.soken.ac.jp/) is an online tool that predicts the number of infected people from time-series data of the virus concentrations in waste water. This R script provides functions estimating some epidemiological parameters and predicting the number of disease cases with them. The simulation results may not perfectly match the output from COVIVIS due to the use of random numbers and the specification of internal functions, but they are qualitatively identical. In addition, the script does not include the codes for data formatting or processing.
 
 ## Functions
 ### find_me_from_sd(m,sd)
@@ -31,7 +31,10 @@ The function accepts time series data as the explanatory variable in the first a
  This function applies the estimated parameters $\nu$, $\gamma$ and $\omega$ to the input time series data of virus concentration and returns a log prediction based on the Shedding curve model. The fifth argument, the residual standard deviation $r$, is used to calculate confidence and prediction intervals for the predicted values. 
 
 ### iv.param_estim_by_em(onsetdata,sewagedata)
+- Parameter estimation by Shedding profile model.
+
 ### iv.prediction_by_em(onsetdata,v,omega,gamma,pr)
+- Prediction of the viral consentration using estimated parameters by Shedding profile model.
 
 ## Requirement 
 "COVIVIS-Functions.R" and "COVIVIS-Simulations.Rmd" require the following libraries to run:
@@ -50,5 +53,4 @@ ohtsuki.t2.work@gmail.com
 
 ## License
 The source code is licensed MIT License, see LICENSE for details.<br>
-COVIVIS is released under the MIT License, see LICENSE for details.<br>
 https://opensource.org/licenses/mit-license.php
