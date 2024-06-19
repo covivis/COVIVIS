@@ -1,6 +1,6 @@
 
 ### COVIVISFunctions.R ###
-## revised at 2024/02/27 ##
+## revised on 2024/02/27 ##
 
 ## required libraries 
 ## library("dplyr") # for mutate 
