@@ -41,9 +41,11 @@ The function accepts time series data as the explanatory variable in the first a
 - dplyr 
 - magrittr
 - nleqslv
+<!--
 - ggplot2
 - DT
 - nleqslv
+-->
 
 ## Note
 
