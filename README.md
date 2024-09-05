@@ -24,7 +24,7 @@
 
 ### param_estim_by_lm(xdata,ydata)
 - Parameters estimation with a linear regression model. 
-The function accepts time series data as the explanatory variable $xdata$ in the first argument and time series data as the objective variable $ydata$ in the second argument. It performs a linear regression analysis of the input values converted to ordinary logarithms. The returned value of the function is a list of some statistics in the regression analysis; the intercept, the slope, the $t$-score, the number of data, the mean of $xdata$, the sum of the squares of the difference between each $xdata$ and the $xmean$, the unbiased variance of $ydata$.
+The function accepts time series data as the explanatory variable $xdata$ in the first argument and time series data as the objective variable $ydata$ in the second argument. It performs a linear regression analysis of the input values converted to ordinary logarithms. The returned value of the function is a list of some statistics in the regression analysis; the intercept, the slope, the $t$-score, the number of data, the mean of $xdata$, the sum of the squares of the difference between each $xdata$ and $xmean$, the unbiased variance of $ydata$.
 
 ### epi.prediction_by_lm(xdata,pa,pb,pr)
 - Prediction of the number of disease onsets using the estimated parameters with a linear regression model. This function applies a regression equation used the estimated parameters $a$ and $b$ to the input time series data by the function “param_estim_by_lm()” and returns the log predicted values. The residual standard deviation $r$ is used to evaluate the confidence and the prediction intervals of the predicted values.
