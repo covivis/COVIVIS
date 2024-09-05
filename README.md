@@ -2,11 +2,12 @@
 
 <p align="center">
 <img  alt="COVIVIS-logo" src="https://covivis.soken.ac.jp/images/logo.svg" width="60%">
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://custom-icon-badges.herokuapp.com/badge/R-198CE7.svg?logo=R&logoColor=white)]()
 [![Static Badge](https://img.shields.io/badge/COVIVIS-v1.1.0-CCCCCC?link=https%3A%2F%2Fcovivis.soken.ac.jp%2F)](https://covivis.soken.ac.jp/)
-</p>
+
 
 ## Overview
 [COVIVIS](https://covivis.soken.ac.jp/) is an online tool that predicts the number of infected people from time-series data of the virus concentrations in waste water. This R script provides functions estimating some epidemiological parameters and predicting the number of disease cases with them. The simulation results may not perfectly match the output from COVIVIS due to the use of random numbers and the specification of internal functions, but they are qualitatively identical. In addition, the script does not include the codes for data formatting or processing.
