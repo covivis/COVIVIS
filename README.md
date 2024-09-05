@@ -1,6 +1,6 @@
 # COVIVIS functions on R
 
-<img src="https://covivis.soken.ac.jp/images/logo.svg" with=50%>
+<img src="https://covivis.soken.ac.jp/images/logo.svg" with="50%">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://custom-icon-badges.herokuapp.com/badge/R-198CE7.svg?logo=R&logoColor=white)]()
