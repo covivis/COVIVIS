@@ -10,7 +10,7 @@
 
 
 ## Overview
-[COVIVIS](https://covivis.soken.ac.jp/) is a web-based tool that predicts the number of people infected with COVID-19 using time-series data of the virus concentrations in wastewater. This R script provides functions to estimate some epidemiological parameters and to predict the number of disease onset casesbased on these estimates. While the outputs of these functions may not exactly match the results produced by COVIVIS - due to the use of random numbers and the difference in internal functions specifications - they are qualitatively consistent. We aim to extend the application of COVIVIS to predict other infectious diseases beyond COVID-19. 
+[COVIVIS](https://covivis.soken.ac.jp/) is a web-based tool that predicts the number of people infected with COVID-19 using time-series data of the virus concentrations in wastewater. This R script provides functions to estimate some epidemiological parameters and to predict the number of disease onset cases based on these estimates. While the outputs of these functions may not exactly match the results produced by COVIVIS - due to the use of random numbers and the difference in internal functions specifications - they are qualitatively consistent. We aim to extend the application of COVIVIS to predict other infectious diseases beyond COVID-19. 
 
 ## Functions
 ### find_me_from_sd(m,sd)
