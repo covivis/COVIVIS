@@ -17,13 +17,13 @@
 - Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
 
 ### generate_onset(reporteddata,xmu,xsd)
-- Estimate the number of disease onsets from the number of reported cases with Monte Carlo method. The distribution of time delay from  onset of disease to reporting follows 　Weibull distribution with mean $m$ and standard deviation $SD$.
+- Estimate the number of disease onset cases from the number of reported cases using Monte Carlo method.The time difference between disease onset and reporting is assumed to follow a Weibull-distributed delay with mean $m$ and standard deviation $SD$.
 
 ### generate_onset_sentinel(sentineldata,xmu,xsd)
-- Estimate the number of disease onsets from sentinel reporting data.
+- Estimate the number of disease onset cases from sentinel reporting data.
 
 ### param_estim_by_lm(xdata,ydata)
-- Parameters estimation with a linear regression model. 
+- Parameters estimation using a linear regression model. 
 The function accepts time series data as the explanatory variable $xdata$ in the first argument and time series data as the objective variable $ydata$ in the second argument. It performs a linear regression analysis of the input values converted to ordinary logarithms. The returned value of the function is a list of some statistics in the regression analysis; the intercept, the slope, the $t$-score, the number of data, the mean of $xdata$, the sum of the squares of the difference between each $xdata$ and $xmean$, the unbiased variance of $ydata$.
 
 ### epi.prediction_by_lm(xdata,pa,pb,pr)
