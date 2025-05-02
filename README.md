@@ -17,7 +17,7 @@
 - Calculation shape and scale parameters of Weibull distribution from the mean and the standard deviation of data.
 
 ### generate_onset(reporteddata,xmu,xsd)
-- Estimate the number of disease onset cases from the number of reported cases using Monte Carlo method.The time difference between disease onset and reporting is assumed to follow a Weibull-distributed delay with mean $m$ and standard deviation $SD$.
+- Estimate the number of disease onset cases from the number of reported cases using Monte Carlo method. The time difference between disease onset and reporting is assumed to follow a Weibull-distributed delay with mean $m$ and standard deviation $SD$.
 
 ### generate_onset_sentinel(sentineldata,xmu,xsd)
 - Estimate the number of disease onset cases from sentinel reporting data.
